@@ -1,13 +1,9 @@
 .product {
-    max-width: 400px;
+    margin: 0 0 60px 0;
 }
 
-#shelf .product, #central .product {
-    max-width: 580px;
-}
 
 #atmos .product {
-    max-width: 100%;
     text-align: center;
 }
 
@@ -25,13 +21,14 @@
     margin: 14px auto 0 auto;
 }
 
+
 .product__image-box {
     position: relative;
     line-height: 0;
 }
 
 .product__image {
-    max-width: 100%;
+    width: 100%;
 }
 
 .product__darken {

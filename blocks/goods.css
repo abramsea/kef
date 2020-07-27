@@ -3,14 +3,16 @@
 }
 
 .goods__box {
-    margin: 72px 0 0 0;
+    margin: 72px auto 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
     padding: 0 0 60px 0;
+    
 }
 
 #shelf .goods__box, #central .goods__box {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr)
 }
 
 #atmos .goods__box {
