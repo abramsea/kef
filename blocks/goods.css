@@ -1,0 +1,9 @@
+.goods {
+    padding: 60px 0;
+}
+
+.goods__box {
+    margin: 72px 0 0 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
