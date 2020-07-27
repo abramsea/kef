@@ -8,7 +8,7 @@
     font-family: 'GraphikLCG', Arial, Helvetica, sans-serif;
     line-height: 1.2;
     color: #000;
-    min-width: 360px;
+    min-width: 320px;
 }
 
 
@@ -54,6 +54,11 @@
     .wrapper {
         padding: 0 40px;
     }
+
+    .title {
+        font-size: 48px;
+    }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -61,8 +66,18 @@
         padding: 0 16px;
     }
 
+    .video-container {
+        padding: 0 0 40px 0;
+    }
 
 
+}
+
+@media screen and (max-width: 600px) {
+    .title {
+        font-size: 36px;
+        text-align: center;
+    }
 }
 
 

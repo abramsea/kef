@@ -32,8 +32,6 @@
 }
 
 
-
-
 .intro__links {
     padding: 90px 0 130px 0;
 }
@@ -41,7 +39,6 @@
 .intro__links-list {
     display: flex;
     justify-content: space-between;
-
 }
 
 .intro__link-elem {
@@ -57,4 +54,47 @@
 
 .intro__link:hover {
     text-decoration: none;
+}
+
+
+@media screen and (max-width: 767px) {
+    .intro__title {
+        font-size: 24px;
+    }
+    .intro__subtitle {
+        font-size: 48px;
+    }
+
+    .intro__subsubtitle {
+        font-size: 14px;
+    }
+    .intro__description {
+        font-size: 14px;
+        margin: 28px auto;
+    }
+
+    .intro__links {
+        padding: 40px 0 80px 0;
+    }
+
+    .intro__links-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .intro__link-elem {
+        margin: 20px;
+    }
+
+    .intro__link {
+        font-size: 14px;
+    }
+
+}
+
+
+@media screen and (max-width: 420px) {
+    .intro__links {
+        padding: 20px 0 40px 0;
+    }
 }

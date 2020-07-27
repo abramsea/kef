@@ -7,7 +7,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
-    padding: 0 0 60px 0;
+    padding: 0 0 40px 0;
     
 }
 
@@ -21,4 +21,36 @@
 
 #atmos .title {
     text-align: center;
+}
+
+
+@media screen and (max-width: 1049px) {
+    .goods__box {
+        margin: 52px auto 0 auto;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .goods {
+        padding: 40px 0;
+    }
+
+    .goods__box {
+        margin: 40px auto 0 auto;
+        padding: 0 0 20px 0;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .goods__box {
+        margin: 40px auto 0 auto;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #shelf .goods__box, #central .goods__box {
+        grid-template-columns: repeat(1, 1fr)
+    }
+    
 }

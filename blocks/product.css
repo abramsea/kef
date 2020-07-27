@@ -136,3 +136,42 @@
     color: #fff;
     border: 1px solid #00caf0;
 }
+
+
+
+
+@media screen and (max-width: 1049px) {
+    .product__title {
+        font-size: 14px;
+        margin: 16px 0 0 0;
+    }
+    
+    .product__description {
+        font-size: 14px;
+        margin: 14px 0 0 0;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    .product {
+        margin: 0 0 40px 0;
+    }
+
+    .product__colors-box {
+        flex-wrap: wrap;
+    }
+
+    .product__color {
+        margin: 6px;
+    }
+    
+}
+
+
+@media screen and (max-width: 600px) {
+    .product__bottom-button {
+        margin: 20px 0 0 0;
+    }
+}
+
