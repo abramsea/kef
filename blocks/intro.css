@@ -43,6 +43,7 @@
 
 .intro__link-elem {
     list-style: none;
+    margin: 10px;
 }
 
 .intro__link {
@@ -80,10 +81,6 @@
     .intro__links-list {
         flex-wrap: wrap;
         justify-content: center;
-    }
-
-    .intro__link-elem {
-        margin: 20px;
     }
 
     .intro__link {
