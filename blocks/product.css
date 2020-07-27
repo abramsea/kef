@@ -2,6 +2,29 @@
     max-width: 400px;
 }
 
+#shelf .product, #central .product {
+    max-width: 580px;
+}
+
+#atmos .product {
+    max-width: 100%;
+    text-align: center;
+}
+
+#atmos .product__colors {
+    margin: 24px auto 0 auto;
+    max-width: 300px;
+}
+
+#atmos .product__bottom-button {
+    margin: 40px auto 0 auto;
+}
+
+#atmos .product__description {
+    max-width: 590px;
+    margin: 14px auto 0 auto;
+}
+
 .product__image-box {
     position: relative;
     line-height: 0;

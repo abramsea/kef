@@ -6,4 +6,17 @@
     margin: 72px 0 0 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 0 60px 0;
+}
+
+#shelf .goods__box, #central .goods__box {
+    grid-template-columns: 1fr 1fr;
+}
+
+#atmos .goods__box {
+    grid-template-columns: 1fr;
+}
+
+#atmos .title {
+    text-align: center;
 }
