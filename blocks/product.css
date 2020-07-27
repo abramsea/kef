@@ -112,5 +112,7 @@
 }
 
 .product__bottom-button:hover {
-    background: #797c81;
+    background: #00caf0;
+    color: #fff;
+    border: 1px solid #00caf0;
 }
