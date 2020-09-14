@@ -39,6 +39,7 @@
 .intro__links-list {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .intro__link-elem {

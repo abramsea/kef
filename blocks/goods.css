@@ -11,11 +11,11 @@
     
 }
 
-#shelf .goods__box, #central .goods__box {
+#shelf .goods__box, #central .goods__box, #wireless .goods__box, #wall .goods__box, #sub .goods__box {
     grid-template-columns: repeat(2, 1fr)
 }
 
-#atmos .goods__box {
+#atmos .goods__box, #stand .goods__box {
     grid-template-columns: 1fr;
 }
 

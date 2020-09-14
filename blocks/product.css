@@ -3,20 +3,20 @@
 }
 
 
-#atmos .product {
+#atmos .product, #stand .product {
     text-align: center;
 }
 
-#atmos .product__colors {
+#atmos .product__colors, #stand .product__colors {
     margin: 24px auto 0 auto;
     max-width: 300px;
 }
 
-#atmos .product__bottom-button {
+#atmos .product__bottom-button, #stand .product__bottom-button {
     margin: 40px auto 0 auto;
 }
 
-#atmos .product__description {
+#atmos .product__description, #stand .product__description {
     max-width: 590px;
     margin: 14px auto 0 auto;
 }
