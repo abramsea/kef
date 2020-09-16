@@ -15,7 +15,7 @@
     grid-template-columns: repeat(2, 1fr)
 }
 
-#atmos .goods__box, #stand .goods__box {
+#atmos .goods__box {
     grid-template-columns: 1fr;
 }
 

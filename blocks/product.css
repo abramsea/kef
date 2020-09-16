@@ -3,20 +3,20 @@
 }
 
 
-#atmos .product, #stand .product {
+#atmos .product {
     text-align: center;
 }
 
-#atmos .product__colors, #stand .product__colors {
+#atmos .product__colors {
     margin: 24px auto 0 auto;
     max-width: 300px;
 }
 
-#atmos .product__bottom-button, #stand .product__bottom-button {
+#atmos .product__bottom-button {
     margin: 40px auto 0 auto;
 }
 
-#atmos .product__description, #stand .product__description {
+#atmos .product__description {
     max-width: 590px;
     margin: 14px auto 0 auto;
 }
@@ -91,10 +91,11 @@
 
 .product__colors-box {
     display: flex;
+    flex-wrap: wrap;
     margin: 0 0 0 24px;
 }
 
-.product__color {
+.product__color{
     color: #797c81;
     font-size: 12px;
     padding: 4px 12px;
